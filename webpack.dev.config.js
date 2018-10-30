@@ -1,6 +1,6 @@
 var path = require('path')
 var webpack = require('webpack')
-var HtmlWebpackPlugin = require('html-webpack-plugin')
+var HtmlWebpackPlugin = require('html-webpack-plugin') 
 
 var resolvePath = function(p){
 	return path.resolve(__dirname,p)
